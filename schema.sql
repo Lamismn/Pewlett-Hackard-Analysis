@@ -29,8 +29,7 @@ CREATE TABLE Dept_Emp (
 	from_date DATE NOT NULL,
 	to_date DATE NOT NULL,
 FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
-FOREIGN KEY (dept_no) REFERENCES Departments (dept_no),
-	PRIMARY KEY (emp_no)
+FOREIGN KEY (dept_no) REFERENCES Departments (dept_no)
 );
 CREATE TABLE Salaries (
 	emp_no INT NOT NULL,
@@ -40,11 +39,12 @@ CREATE TABLE Salaries (
 FOREIGN KEY (emp_no) References employees (emp_no),
 	primary key (emp_no)
 );
+
 create table Titles (
 	emp_no INT not null,
 	title varchar not null,
 	from_date date not null,
 	to_date date not null,
 Foreign key (emp_no) references employees (emp_no),
-	PRIMARY key (emp_no)
+foreign key (emp_no) references salaries (emp_no)
 );

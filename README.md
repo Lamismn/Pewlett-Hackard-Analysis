@@ -19,8 +19,19 @@ The output file is in the following link https://github.com/Lamismn/Pewlett-Hack
 Note: to be able to get only one entry per employee & ensure it has the current title, we used the following code, the final line sorts by employee number with a descending order for the to_date column.
 
 <img width="397" alt="code 3" src="https://user-images.githubusercontent.com/79733383/115166153-8d7cf700-a07f-11eb-9047-ff23c6183468.PNG">
+## Summary
 
+According to the analysis we performed, the following table shows the number of retiring employees from esch title:
 
+<img width="206" alt="retiring titles" src="https://user-images.githubusercontent.com/79733383/115166242-26137700-a080-11eb-83a1-97d7c91946d5.PNG">
+
+The following table shows the number of current employees eligible for the mentoring by title.
+
+<img width="221" alt="mentoring" src="https://user-images.githubusercontent.com/79733383/115166307-873b4a80-a080-11eb-949f-015325dffc71.PNG">
+
+As shown in the above table, the current employees that are eligible for the mentoring program based on the company's criteria will not cover the number of employees that are leaving for retirement, which will cause a huge drop soon. To overcome this, the criteria for selecting employees for the mentoship program should change, our advice is for the comapny to start considering younger people for senior positions, lowering the age needed for eligibility will increase the number of employees who can join.
+
+The company also needs to start hiring new people soon, to allow for a smoother transition once older employees retire.
 
 
 
